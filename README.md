@@ -2,15 +2,15 @@
 
 This python script accepts 2 required arguments and others are optional. The script will run only if the required arguments are provided. 
 
-Required Arguments : s3 bucketname and the filepath
-Optional Arguments : Registry name, username , password and awsprofile name
+Required Arguments : s3 bucketname and the filepath. </br>
+Optional Arguments : Registry name, username , password and awsprofile name.
 
-Use Optional arguments in the below scenarios 
-a) Use awsprofile , When you want to use a particular AWS profile. Example : Dev , Production etc. Please check the .aws/credentials file for more info.
-b) Use the rest of optional arguments , When you want to use a registry other than hub.docker.io. 
+**Use Optional arguments in the below scenarios** </br>
+a) Use awsprofile , When you want to use a particular AWS profile. Example : Dev , Production etc. Please check the .aws/credentials file for more info. </br>
+b) Use the rest of optional arguments , When you want to use a registry other than hub.docker.io. </br>
 
 
-How to use with examples : 
+**How to use with examples** :
 
 There is a help section to the script. Use the **-h** argument. 
 
