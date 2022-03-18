@@ -1,10 +1,10 @@
 # docker_pull_python
 
-This python script accepts 2 required arguments and others are optional. 
+This python script accepts 2 required arguments and others are optional. The script will run only if the required arguments are provided. 
+
 Required Arguments : s3 bucketname and the filepath
 Optional Arguments : Registry name, username , password and awsprofile name
 
-The script will run only if the required arguments are provided. 
 Use Optional arguments in the below scenarios 
 a) Use awsprofile , When you want to use a particular AWS profile. Example : Dev , Production etc. Please check the .aws/credentials file for more info.
 b) Use the rest of optional arguments , When you want to use a registry other than hub.docker.io. 
@@ -14,7 +14,7 @@ How to use with examples :
 
 There is a help section to the script. Use the **-h** argument. 
 
-**/usr/local/opt/python/bin/python3.7 /Users/sasikantpamuru/Desktop/python/aws1.py **-h****
+**/usr/local/opt/python/bin/python3.7 /Users/sasikantpamuru/Desktop/python/aws_docker.py **-h****
 usage: aws1.py [-h] [-u USERNAME] [-p PASSWORD] [-r REGISTRYNAME]
                [-P AWSPROFILE] -B AWSBUCKET -F AWSFILEPATH
 
